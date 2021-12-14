@@ -8,9 +8,15 @@ public class Section {
 
     public Section(String name) {
         this.name = name;
-        this.x = (int) (Math.random() *  100);
-        this.y = (int) (Math.random() *  100);
+        this.x = (int) (Math.random() *  10);
+        this.y = (int) (Math.random() *  10);
     }
+
+//    public Section(String name, int x, int y) {
+//        this.name = name;
+//        this.x = x;
+//        this.y = y;
+//    }
 
     public int getX() {
         return x;
