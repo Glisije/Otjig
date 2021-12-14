@@ -16,7 +16,7 @@ public class ShoppingWay {
         return sections.get(index);
     }
 
-    public int getTourLength() {
+    public int getWayLenght() {
         if (distance != 0) return distance;
 
         int totalDistance = 0;

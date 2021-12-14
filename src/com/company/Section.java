@@ -12,11 +12,11 @@ public class Section {
         this.y = (int) (Math.random() *  10);
     }
 
-//    public Section(String name, int x, int y) {
-//        this.name = name;
-//        this.x = x;
-//        this.y = y;
-//    }
+    public Section(String name, int x, int y) {
+        this.name = name;
+        this.x = x;
+        this.y = y;
+    }
 
     public int getX() {
         return x;
